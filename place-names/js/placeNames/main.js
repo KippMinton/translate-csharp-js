@@ -10,3 +10,11 @@ console.log("All Pace Names");
 for (const name of names) {
   console.log(name);
 }
+
+console.log("")
+
+for (const name of names) {
+  if (name.startsWith('The')) {
+    console.log(name)
+  }
+}
